@@ -1,5 +1,5 @@
 # Telegram Bot for Sending IP-address of a server if Dynamic IP has changed.
-* Inspired by [indicozy/telegram-ping-ip](https://github.com/indicozy/telegram-ping-ip) *
+*Inspired by [indicozy/telegram-ping-ip](https://github.com/indicozy/telegram-ping-ip)*
 ## Getting started.
 ### Requirements:
 * `curl` - Install with whatever package manager you use
