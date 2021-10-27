@@ -24,7 +24,7 @@ cp env.sample .env
 ./screen-telegram-ping-ip.sh
 ```
 ### Automatically run the script on system boot up
-* Add it to a crontab `crontab -e` \
+* Add it to a crontab `crontab -e`
 ```
 @reboot /bin/bash /path/to/telegram-ping-ip/screen-telegram-ping-ip.sh
 ```
