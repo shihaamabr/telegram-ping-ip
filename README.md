@@ -14,16 +14,17 @@ chmod +x telegram-ping-ip.sh screen-telegram-ping-ip.sh
 cp env.sample .env
 ```
 - Edit the contents of .env to your config (`nano .env`)
-### Execute the script
+## Running
+### Execute the script - Forground
 ```bash
-./telegram-ping-ip.sh
+./telegram-ping-ip.sh - Background 
 ```
-### Run the script in a screen
+### Run the script in a screen 
 ```bash
 ./screen-telegram-ping-ip.sh
 ```
-### Automatically run the script on system boot up
-* Add it to a crontab `crontab -e`
+### Run at system boot up
+* Add it to a crontab, Run: `crontab -e`
 ```
 @reboot /bin/bash /path/to/telegram-ping-ip/screen-telegram-ping-ip.sh
 ```
