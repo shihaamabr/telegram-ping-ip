@@ -17,17 +17,18 @@ cp env.sample .env
 ## Running
 ### Execute the script - Forground
 ```bash
-./telegram-ping-ip.sh - Background 
+./telegram-ping-ip.sh
 ```
-### Run the script in a screen 
+### Run the script in a screen - Background 
 ```bash
 ./screen-telegram-ping-ip.sh
 ```
 ### Run at system boot up
-* Add it to a crontab, Run: `crontab -e`
+* Add the following like to crontab, Run: `crontab -e`
 ```
 @reboot /bin/bash /path/to/telegram-ping-ip/screen-telegram-ping-ip.sh
 ```
+
 ## Future plans
 * create a daemon, idk, it seems interesting
 
